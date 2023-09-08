@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:400,500,600,800);
+body { 
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    background-color: #F4F4F4; 
+}
+
+h1, h2, h3 , h4, h5, h6, p, button{
+     font-family: Inter; 
+}
+
+.title{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    justify-content: center; 
+}
+
+.SubEl{
+    color: #5A537B;
+    background-color: white;
+}
+
+#input-el{
+    text-align: center;
+    font-size: 58px;
+    font-weight: 800; 
+    color: white; 
+    width: 117px;
+    height: 83px;
+    top: 101px; 
+    left: 217px; 
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px
+}
+
+
+#convertBtn{
+    width: 117px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    flex-direction: column;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF; 
+}
+
+
+#Container{
+    width: 550px;
+    height: 285px;
+    color: #FFFFFF; 
+    display: grid;
+    justify-items: center;
+    background-color: #6943FF;
+}
+
